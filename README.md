@@ -1,4 +1,4 @@
-# 🧠 RAG Chat — Chat With Your PDFs
+#  RAG Chat — Chat With Your PDFs
 
 A fully local, 100% free RAG (Retrieval Augmented Generation) application that lets you upload PDF documents and chat with them using AI. No API keys, no cloud services, no cost — everything runs on your machine.
 
@@ -14,7 +14,7 @@ A fully local, 100% free RAG (Retrieval Augmented Generation) application that l
 
 ---
 
-## 🏗️ Tech Stack
+##  Tech Stack
 
 | Layer | Tool | Purpose |
 |---|---|---|
@@ -28,7 +28,7 @@ A fully local, 100% free RAG (Retrieval Augmented Generation) application that l
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 rag-app/
@@ -46,7 +46,7 @@ rag-app/
 
 ---
 
-## ⚙️ How RAG Works
+##  How RAG Works
 
 ```
 PREPARE (on PDF upload):
@@ -63,7 +63,7 @@ The key insight: the LLM **only reads the retrieved chunks**, not its training d
 
 ---
 
-## 🖥️ Requirements
+##  Requirements
 
 | Spec | Minimum | Recommended |
 |---|---|---|
@@ -75,7 +75,7 @@ The key insight: the LLM **only reads the retrieved chunks**, not its training d
 
 ---
 
-## 🚀 Setup & Installation
+##  Setup & Installation
 
 ### 1. Install Ollama
 Download from [https://ollama.com/download](https://ollama.com/download) and install it.
