@@ -9,8 +9,8 @@ from rag import index_pdf, build_rag_chain
 
 # ─── Page Setup ───────────────────────────────────────
 st.set_page_config(page_title="RAG Chat", page_icon="🧠", layout="wide")
-st.title("🧠 Rag Chat")
-st.caption("Powered by Llama + ChromaDB — 100% Free & Local")
+st.title("🧠 Rag Pipline")
+st.caption("Powered by Llama + ChromaDB ")
 
 # ─── Session State (like React useState) ──────────────
 if "chat_history" not in st.session_state:
@@ -98,16 +98,8 @@ with st.sidebar:
             st.session_state.pdf_loaded = False
             st.rerun()
 
-    st.divider()
-    st.markdown("### 🔍 How RAG Works")
-    st.markdown("""
-    1. 📄 PDF split into chunks
-    2. 🔢 Chunks → converted to vectors
-    3. 💾 Vectors stored in ChromaDB
-    4. ❓ Your question → converted to vector
-    5. 🔍 Top 5 similar chunks retrieved
-    6. 🧠 Llama reads chunks → answers you
-    """)
+
+   
 
 
 # ─── Main — Chat Interface ────────────────────────────
